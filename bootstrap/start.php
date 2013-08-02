@@ -28,7 +28,8 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('your-machine-name'),
+	'ciclismo.mashica.oax' => array('ciclismo.mashica.oax'),
+	'ciclismo.mashica.net' => array('ciclismo.mashica.net'),
 
 ));
 
