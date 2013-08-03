@@ -17,12 +17,6 @@ Route::get('/', function()
 });
 
 
-Route::get('/mashica', function()
-{
-	return "This is Mashica, yes it is.";
-});
-
-
 
 Route::get('/environment', function()
 {
