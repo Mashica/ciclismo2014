@@ -5,6 +5,10 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class User extends Eloquent implements UserInterface, RemindableInterface {
 
+	// Enable Soft deletes
+	//protected $softDelete = true;
+
+
 	/**
 	 * The database table used by the model.
 	 *
