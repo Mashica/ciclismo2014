@@ -56,4 +56,7 @@ Route::get('/environment', array('as' => 'env' , function()
 
 
 
+Event::listen('laravel.query', function($sql){
+	var_dump($sql);
+});
 
